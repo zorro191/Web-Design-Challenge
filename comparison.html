@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Wind Speed</title>
+    <title>comparison</title>
   
   </head>
   <body>
@@ -44,26 +44,49 @@
         </div>
       </nav>
 
-      <div class="container">
+   
+      <div class="box box-single">
+        <section id="intro">
+                <h1 style="color:blue">Comparison: Latitude vs. X</h1>
+                <hr>
+
+                <section id="summary">
+                        <p>Click any plot for an in-depth analysis.</p>
+                </section>
+        </section>
+
         <div class="row">
-            <div class="col-md-8 col-sm-6">
-                <h1 style="color:blue">Wind Speed</h1>
-                <img id="summary-image" src="WebVisualizations\Resources\Fig4.png" height="300" width="300" alt="cool data">
-                <p> 
-                    Write something about windspeed
-                <p>
+                <div class="col-xs-12 col-md-6">
+                      <h3 style="color:blue">vs. Max Temperature</h3>
+                    <figure>
+                          <a href="max_temp.html">
+                              <img id="landing-viz" src="WebVisualizations\Resources\Fig1.png" alt="Cool pic"></a>
+                      </figure>
+                  </div>
+              
+            <div class="col-xs-12 col-md-6">
+                    <h3 style="color:blue">vs. Humidity</h3>
+                    <figure>
+                        <a href="humidity.html">
+                            <img id="landing-viz" src="WebVisualizations\Resources\Fig2.png" alt="Latitude vs. Humidity"></a>
+                    </figure>
+                </div>
 
+            <div class="col-xs-12 col-md-6">
+                <h3 style="color:blue">vs. Cloudiness</h3>
+                <figure>
+                    <a href="cloudiness.html">
+                        <img id="landing-viz" src="WebVisualizations\Resources\Fig3.png" alt="Latitude vs. Cloudiness"></a>
+                </figure>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <h1 style="color:blue">Visualizations</h1>
-                <img id="summary-image" src="WebVisualizations\Resources\Fig1.png" height="150" width="150" alt="cool data" style= float:left >
-                <img id="summary-image" src="WebVisualizations\Resources\Fig2.png" height="150" width="150" alt="cool data" style= float:right>
-                <img id="summary-image" src="WebVisualizations\Resources\Fig3.png" height="150" width="150" alt="cool data" style= float:left>
-                <img id="summary-image" src="WebVisualizations\Resources\Fig4.png" height="150" width="150" alt="cool data" style= float:right <span class="border border-primary"></span>
-            </div>
-        <div>
 
-        <div>
+            <div class="col-xs-12 col-md-6">
+                <h3 style="color:blue">vs. Wind Speed</h3>
+                <figure>
+                        <a href="wind_speed.html">
+                            <img id="landing-viz" src="WebVisualizations\Resources\Fig4.png" alt="Latitude vs. Wind Speed"></a>
+                </figure>
+            </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
